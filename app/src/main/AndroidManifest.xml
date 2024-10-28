@@ -13,6 +13,12 @@
         android:theme="@style/Theme.NativeAndroidAnimation"
         tools:targetApi="31">
         <activity
+            android:name=".FlipAnimation.FlipAnimationKotlinActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FlipAnimation.FlipAnimationJavaActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
@@ -22,5 +28,4 @@
             </intent-filter>
         </activity>
     </application>
-
 </manifest>
